@@ -1,5 +1,5 @@
 //Create variables here
-
+var foodS,foodStock,dog;
 function preload()
 {
 
@@ -37,9 +37,7 @@ function draw() {
   fill("blue");
   text("HI! I'm Tommy and I am bery humgry ",100,50)
   text("Press Up arrow to feed me",120,100)
-
-  // fill("yellow")
-  // text("Bottles left: " + ,200,150)
+text("Food remaining : "+foodS,170,200);
 
 }
 
